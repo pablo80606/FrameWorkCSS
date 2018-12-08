@@ -1,0 +1,150 @@
+body{
+  background-image: url(../img/turismo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+header{
+  width: 1400px;
+  margin: auto;
+}
+
+.logo{
+  width: 300px;
+}
+
+.slogan{
+  font-family: cursive;
+  font-style: italic;
+  font-size: 35px;
+  margin-top:  -160px;
+  color: rgb(255, 255, 255);
+}
+
+section{
+  width: 1400px;
+  margin: auto;
+}
+
+.card-image{
+  box-shadow: 6px 6px 6px black;
+  border: 1px solid black;
+}
+
+.img-social{
+
+  margin-left: 15px;
+  width: 50px;
+  height: 50px;
+}
+
+.img-perfil{
+  width: 300px;
+  height: 300px;
+
+}
+
+/*##Device = Laptops*/
+@media (min-width: 1282px) {
+
+  .nav-iconos{
+    display: none;
+  }
+
+}
+
+/*##Device = Laptops*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  .nav-iconos{
+    display: none;
+  }
+
+  header {
+    width: auto;
+  }
+
+  body{
+      background-size: auto;
+    }
+
+  .s{
+     display: none;
+   }
+
+   section {
+     width: auto;
+   }
+
+}
+
+/*##Device = Tablets, Ipads (landscape)*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  header {
+    width: auto;
+  }
+  section {
+    width: auto;
+  }
+
+
+  body{
+      background-size: auto;
+    }
+
+  .s{
+     display: none;
+   }
+
+   .nav-iconos{
+     display: none;
+   }
+
+   .img-social{
+
+     display: none;
+   }
+
+
+
+
+}
+
+/*##Device = Low Resolution Tablets, Mobiles (Landscape)*/
+@media (max-width: 767px) {
+
+  header {
+    width: auto;
+  }
+
+  body{
+    background-size: auto;
+  }
+
+  section {
+    width: auto;
+  }
+
+   .logo{
+     width: 150px;
+   }
+
+   .nav{
+     display: none;
+   }
+
+   .nav-iconos{
+     padding-left:  30px;
+   }
+
+   .slogan{
+     text-align: center;
+     font-family: cursive;
+     font-style: italic;
+     font-size: 20px;
+     margin-top:  0px;
+   }
+
+}

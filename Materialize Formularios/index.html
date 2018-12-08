@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <!--Importar la fuente de los íconos de Google-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Importar la hojas de estilos de materialize css-->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <title>Mi primer página con Materialize CSS</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h1>Formularios</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <form class="" action="index.html" method="post">
+          <div class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <i class="material-icons prefix">perm_identity</i>
+                <input id="nombre" type="text" class="validate" name="" value="">
+                <label for="nombre">Nombre y Apellidos</label>
+              </div>
+              <div class="input-field col s6">
+                <i class="material-icons prefix">vpn_key</i>
+                <input id="contraseña" type="password" class="validate" name="" value="">
+                <label for="contraseña">Contraseña</label>
+              </div>
+              <div class="input-field col s6">
+                <i class="material-icons prefix">email</i>
+                <input id="email" type="email" class="validate" name="" value="">
+                <label for="email" data-sucess="Correcto" data-error="Debe completar este campo" >Email</label>
+              </div>
+              <div class="input-field col s6">
+                <select class="browser-default" name="">
+                  <option value="" disabled selected>Elige</option>
+                  <option value="1">Opcion 1</option>
+                  <option value="2">Opcion 2</option>
+                  <option value="3">Opcion 3</option>
+                </select>
+              </div>
+              <div class="input col s6">
+                <p>
+                  <input id="masculino" type="radio" name="sexo" value="masculino" class="validate">
+                  <label for="masculino">Masculino</label>
+                </p>
+                <p>
+                  <input id="femenino" type="radio" name="sexo" value="femenino" class="validate width-gad">
+                  <label for="femenino">Femenino</label>
+                </p>
+              </div>
+              <div class="input-field col s6">
+                <p>
+                  <input type="checkbox" id="check1" name="" value="">
+                  <label for="check1">Automovil</label>
+                </p>
+                <p>
+                  <input type="checkbox" id="check1" name="" value="" class="filled-in">
+                  <label for="check1">Automovil</label>
+                </p>
+                <p>
+                  <input type="checkbox" id="check1" name="" value="" checked="checked">
+                  <label for="check1">Automovil</label>
+                </p>
+
+              </div>
+
+              <div class="input-field col s6">
+                <div class="switch">
+                  <label>
+                    No
+                    <input type="checkbox" name="" value="">
+                    <span class="lever"></span>
+                    Si
+                    </noscript>
+                  </label>
+                </div>
+              </div>
+
+              <div class="input-field col s6">
+                <textarea id="text" class="materialize-textarea"></textarea>
+                <label for="text">Text Area</label>
+
+              </div>
+
+
+
+
+
+            </div>
+          </div>
+        </form>
+      </div>
+
+    </div>
+
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>
